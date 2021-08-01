@@ -18,7 +18,7 @@ st.markdown("<h1 style='text-align: center; color: black;'>Accuracy Calculator</
 col1, col2 = st.beta_columns([1, 1])
 with col1:
     
-    file_ = open("C:\\Users\\User\\streamlitapp\\design.gif", "rb")
+    file_ = open(".\\design.gif", "rb")
     contents = file_.read()
     data_url = base64.b64encode(contents).decode("utf-8")
     file_.close()
